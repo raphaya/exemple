@@ -1,0 +1,80 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    box-sizing: content-box;
+}
+body{
+    background-color: antiquewhite;
+}
+#petitMenu{
+    background: aqua;
+    width: 960px;
+    display: block;
+    position: relative;
+    margin-left: 400px;
+    text-align: right;
+    padding: 5px;
+}
+#logo{
+    background-color: black;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+#main-nav{
+    background: red;
+    text-align: center;
+    width: 960px;
+    margin-left: 400px;
+    display: block;
+    position: relative;
+    padding: 10px;
+    height: 50px;
+        
+}
+
+div#page.main-wrapper li{
+    text-align: center;
+    display: inline-block;
+
+}
+#liDuMenu{
+    border-style: solid;
+    border-width: 2px;
+    background: greenyellow;
+}
+#liDuMenu:hover{
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    height: 30px;
+}
+
+#form{
+    background: white;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 80px;
+    height: 400px;
+
+}
+#form ul{
+    text-align: center;
+    width: 500px;
+    display: block;
+    position: relative;
+    margin-top: 100px;
+}
+
+#form ul>li{
+    text-align: center;
+    width: 200px;
+    display: block;
+    position: relative;
+    margin-top: 25px;
+    height: 100%;;
+  
+}
